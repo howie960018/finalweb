@@ -1,0 +1,968 @@
+body{
+    display:flex;
+    justify-content: center;
+   
+    
+}
+
+section{
+	padding-bottom:720px;
+}
+
+
+li:hover{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+p:hover{
+    cursor:default;
+}
+.nav{
+    position:fixed;
+    width:100%;
+    height:50px;
+    z-index: 1;
+    background-color: rgba(54, 69, 74, 0.7);
+}
+nav ul{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 14px;
+}
+nav ul li {
+    display: inline;
+    margin-right:23px;
+    color:#FDF9F5;
+    font-family:Mohave;
+    cursor:pointer;
+}
+nav ul li a{
+    color:#FDF9F5;
+}
+nav ul li a:hover{
+    color:#FDF9F5;
+}
+.name{
+    font-family:Pompiere;
+    font-size: 23px;
+    color:#FDF9F5;
+    position:fixed;
+    margin-left: 450px;
+    padding-top:12px;
+
+}
+.name:hover{
+    cursor:pointer;
+}
+
+.logo{
+    display: block;
+    position: absolute;
+    top: -32px;
+    left: 630px;
+    width: 140px;
+    height: 105px;
+}
+.navIcon{
+    margin-left: 795px;
+}
+.navIcon img:hover{
+    cursor:pointer;
+}
+.navIcon p:hover{
+    cursor:pointer;
+}
+.LogIn:hover{
+    cursor:pointer;
+}
+.LogIn{
+    width:76px;
+    position:fixed;
+    margin-top: 24px;
+    font-family: Mohave;
+    font-size:18px;
+    margin-left: 12px;
+    color: rgba(253, 249, 245, 1);
+}
+.LogIn p{
+    margin-left: 30px;
+}
+.User{
+    position:fixed;
+
+}
+.ShoppingCart{
+  margin-top:24px;
+  margin-left:120px;
+}
+.navLine{
+    position:absolute;
+    text-align: center;
+    justify-content: center;
+    min-width:1000px;
+    min-height:1px;
+    margin-top: 400px;
+    margin-left: 130px;
+    background-color:#FDF9F5;
+    font-size: larger;
+}
+
+.mainpage{
+	position: relative;
+background-image:url("img/bg/iloveimg-resized/Characters.png");
+}
+
+.photo{
+    width: 100%;
+}
+
+.caption{
+
+    color: aliceblue;
+    font-family: 'Chewy';
+    font-size: 90px;
+    width: 60vw;
+    height: fit-content;
+    position: absolute;
+    top:40%;
+    left:35%;
+
+}
+
+.subtitle{
+    color: aliceblue;
+    font-family:  'Chewy';
+    width: 70vw;
+    height: fit-content;
+    font-size: 2rem;
+    overflow: hidden;
+    position: absolute;
+    top:70%;
+    left:25%;
+    
+
+}
+
+.h{
+    height: 0px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    background-color: white;
+
+}
+
+
+.fin_btn{
+
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  color:black ;
+  position: relative;
+  top: 4rem;
+  left:35rem;
+  z-index: 1;
+
+}
+
+.Fin_pos{
+  
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    top: 130%;
+    left:33%;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+    border-radius:10px;
+  
+}
+
+.btntxt{
+    color:white; 
+    font-size: 40px;
+}
+
+.Fin_pos:hover{
+  
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+    
+  
+}
+
+.Jake_pos{
+  
+    position: absolute;
+    width: 120px;
+    height: 90px;
+    top: 170%;
+    left: 57%;
+    width: 120px;
+    height: 90px;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+    border-radius:10px;
+  
+}
+
+.Jake_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+.Marceline_pos{
+
+    position: absolute;
+    width: 220px;
+    height: 120px;
+    top: 1540px;
+    left: 700px;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+}
+
+.Marceline_pos:hover{
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+.PrincessBonnibel_pos{
+
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    top: 1850px;
+    left: 300px;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+    border-radius:10px;
+}
+
+.PrincessBonnibel_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+
+}
+
+.jakebtn_word{
+
+    font-size: larger;
+    margin:0 3px ;
+}
+
+
+.jake_btn{
+
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color:black ;
+    position: absolute;
+    top: 900px;
+    left:55%;
+    z-index: 1;
+  
+  }
+
+
+.Marceline_btn{
+
+    display: block;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color:black ;
+    position: absolute;
+    top: 1500px;
+    left:55%;
+    z-index: 1;
+
+
+}
+
+
+
+.Princess_Bonnibel_btn{
+
+    display: block;
+    width: 160px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    color:black ;
+    position: absolute;
+    top: 1900px;
+    left:35%;
+    z-index: 1;
+
+}
+
+.LumpySpacePrincess_pos{
+
+    display: block;
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 2200px;
+    left:200px;
+    z-index: 1;
+    border-color: white;
+    color:white;
+    background-color: transparent;
+    border-radius:10px;
+
+
+}
+
+.LumpySpacePrincess_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+
+}
+
+.BMO_pos{
+
+    display: block;
+    width: 150px;
+    height: 60px;
+    background-color: transparent;
+    color:white ;
+    border-color: white;
+    position: absolute;
+    top: 2600px;
+    left:700px;
+    z-index: 1;
+    border-radius:10px;
+}
+
+.BMO_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+.TheLich_pos{
+
+    display: block;
+    width: 220px;
+    height: 80px;
+    background-color:transparent;
+    position: absolute;
+    top: 3000px;
+    left:350px;
+    z-index: 1;
+    text-decoration: none;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    border-radius:10px;
+  
+
+}
+
+.TheLich_pos:hover{
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+
+
+.IceKing_pos{
+
+    display: block;
+    width: 230px;
+    height: 80px;
+    position: absolute;
+    top: 550%;
+    left:54%;
+    z-index: 1;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+
+}
+
+.IceKing_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+
+
+.PeppermintButler_pos{
+
+    display: block;
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    top:3830px;
+    left:55%;
+    z-index: 1;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+}
+
+.PeppermintButler_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+.flameprincess_pos{
+
+    display: block;
+    width: 320px;
+    height: 80px;
+    position: absolute;
+    top: 600%;
+    left:29%;
+    z-index: 1;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+
+}
+
+.flameprincess_pos:hover{
+
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+
+}
+
+
+.LadyRainicorn_pos{
+
+    display: block;
+    width: 360px;
+    height: 80px;
+    position: absolute;
+    top: 730%;
+    left:50%;
+    z-index: 1;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+
+}
+.LadyRainicorn_pos:hover{
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);   
+}
+
+.Fern_pos{
+
+    display: block;
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    top: 780%;
+    left:43%;
+    z-index: 1;
+    border-color: white;
+    color:rgb(0, 0, 0);
+    background-color: transparent;
+    border-radius:10px;
+
+
+}
+
+.Fern_pos:hover{
+    border-color: black;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.226);
+}
+
+
+.bg1{
+    display: block;
+position: absolute;
+top: 800px;
+
+}
+
+.finintro{
+
+    display: inline-block;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+
+     
+}
+
+.introblock{
+
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/F.png);
+    
+}
+
+.fintitle{
+
+
+    position: relative;
+    top: 40px;
+    left: 320px;
+    color: white;
+}
+
+.finintroword{
+
+    background-color: transparent;
+    color:black;
+    display: inline-block;
+    margin-top: 30px;
+    padding:2px;
+    width: 360px;
+    height: fit-content;
+    position: absolute;
+    top: 160px;
+    left: 640px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 17px;
+
+}
+
+.back{
+
+  display: inline-block;
+  margin: 1px;
+  position: absolute;
+  top: 400px;
+  left: 800px;
+  border:solid black ;
+  border-radius: 10px;
+  padding: 3px;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  color:white;
+  border-color: white;
+  background-color: transparent;
+
+}
+
+.back:hover{
+
+   
+    background-color: transparent;
+    color: black;
+    border-color: black;
+
+  
+  }
+
+  .jakeintro{
+
+
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    width: 340px;
+    height: 360px;
+    
+  }
+  .jaketitle{
+
+    position: absolute;
+    top:80px;
+    left:370px;
+    color: white;
+  }
+
+  .jakeintroword{
+
+    background-color:transparent;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding:2px;
+    width: 350px;
+    height: fit-content;
+    position: absolute;
+    top: 100px;
+    left: 640px;
+    padding: 12px;
+    margin: 10px;
+    color:black;
+    font-size: 17px;
+    
+  }
+  .Princess_Bubblegum_intro{
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    width:250px;
+    height: 420px;
+
+  }
+
+  .Princess_Bubblegum_title{
+
+    position: absolute;
+    top:50px;
+    left:180px;
+    color: white;
+
+  }
+
+  .Princess_Bubblegum_introword{
+
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    padding:2px;
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    top: 130px;
+    left: 620px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 17px;
+
+  }
+
+  .introblock1{
+
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/PB.png);
+    
+}
+
+.Marceline_intro{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    width:450px;
+    height: 450px;
+}
+
+.Marceline_title{
+
+position: absolute;
+top:50px;
+left:240px;
+color: white;
+}
+
+.Marceline_introword{
+
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    padding:2px;
+    width: 400px;
+    height: fit-content;
+    position: absolute;
+    top: 130px;
+    left: 620px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 17px;
+
+
+}
+
+.black_btntxt{
+
+    color:black; 
+    font-size: 40px;
+}
+
+.introblock2{
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/LSP.png);
+
+}
+
+
+
+.LSPintro{
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    width: 200px;
+    height: 270px;
+}
+
+.LSPtitle{
+
+    position: absolute;
+    top:70px;
+    left:160px;
+    color: white;
+}
+.LSPintroword{
+
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin-top: 50px;
+    padding:2px;
+    width: 350px;
+    height: fit-content;
+    position: absolute;
+    top: 180px;
+    left: 640px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 17px;
+}
+.BMOintro{
+
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    width: 430px;
+    height: 240px;
+}
+
+.BMOtitle{
+
+    position: absolute;
+    top:70px;
+    left:350px;
+    color: white;
+}
+
+.BMOintroword{
+
+    background-color: transparent;
+    color: BLACK;
+    display: inline-block;
+    margin-top: 30px;
+    width: 360px;
+    height: fit-content;
+    position: absolute;
+    top: 160px;
+    left: 630px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 18px;
+
+}
+.Iceintro{
+
+    position: absolute;
+    top: 140px;
+    left: 260px;
+    width: 250px;
+    height: 360px;
+}
+
+.Icetitle{
+    position: absolute;
+    top:70px;
+    left:320px;
+    color: white;
+}
+
+.Iceintroword{
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    padding:2px;
+    width: 380px;
+    height: fit-content;
+    position: absolute;
+    top: 140px;
+    left: 620px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 17px;
+
+
+}
+
+.introblock3{
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/IK.png);
+}
+
+.introblock4{
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/FP.png);
+
+}
+
+.introblock5{
+
+    position: fixed;
+    display: inline-block;
+    border-radius: 10px;
+    width:1280px;
+    height:720px;
+    background-image: url(../img/bg/iloveimg-resized/Fer.png);
+    
+}
+
+.ladyrainicornintro{
+    position: absolute;
+    top: 140px;
+    left: 160px;
+    width: 400px;
+    height: 360px;
+
+}
+
+.ladyrainicorntitle{
+    position: absolute;
+    top:70px;
+    left:240px;
+    color: white;
+
+
+}
+
+.Fernintro{
+
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    width:220px;
+    height: 250px;
+
+}
+
+.ferntitle{
+    position: absolute;
+    top:70px;
+    left:380px;
+    color: white;
+
+
+}
+
+.scroll{
+
+    position: relative;
+    top: 50px;
+    left:400px;
+    width:840px;
+    height: 370px;
+}
+
+.finnscroll{
+    
+    position: relative;
+    top: 50px;
+    left:400px;
+    width:840px;
+    height: 300px;
+}
+.PBscroll{
+
+    position: relative;
+    top: 50px;
+    left:400px;
+    width:840px;
+    height: 270px;
+}
+
+.PBtitle{
+
+    position: relative;
+    top: 50px;
+    left:200px;
+    color:white;
+
+
+}
+
+.PBintroword{
+
+    background-color: transparent;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+    padding:2px;
+    width: 380px;
+    position: absolute;
+    top: 140px;
+    left: 620px;
+    padding: 22px;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.LSPscroll{
+    position: relative;
+    top: 110px;
+    left:400px;
+    width:840px;
+    height: 300px;
+}
+
+@font-face {
+    font-family: 'Chewy';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/chewy/v12/uK_94ruUb-k-wn52KjI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
